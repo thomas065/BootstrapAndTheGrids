@@ -2,6 +2,11 @@ main>.container {
     padding: 60px 15px 0;
 }
 
+body> main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .homeBG {
     width: 100%;
     background: url("/img/GridBG.png");
