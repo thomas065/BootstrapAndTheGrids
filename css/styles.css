@@ -1,0 +1,29 @@
+/* Sticky Footer */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/GridBG.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.landing-text {
+    font-family: 'Londrina Shadow', sans-serif;
+    text-transform: uppercase;
+    color: rgb(195, 255, 0);
+}
